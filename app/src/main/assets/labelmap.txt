@@ -1,0 +1,6 @@
+plastik
+kardus
+kertas
+logam
+pakaian
+kaca

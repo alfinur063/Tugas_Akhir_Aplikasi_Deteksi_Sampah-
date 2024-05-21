@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">DeteksiApp</string>
+    <string name="mode_gelap">dark mode\n</string>
+    <string name="tentang">Tentang</string>
+    <string name="register">Aplikasi ini merupakan aplikasi untuk mendeteksi jenis sampah menggunakan model SSD MobileNetV2, aplikasi ini juga dilengkapi dengan rekomendasi produk sampah yang bisa didaur ulang. Aplikasi ini dapat mendeteksi jenis sampah melalui kamera secara real time. Aplikasi ini juga memberikan informasi mengenai produk daur ulang sampah mulai dari alat dan bahan hingga tata cara pembuatan produk tersebut.\n</string>
+    <string name="register_hint">Hubungi kami \n \n Nomor Telepon:+6282234123966 \n \n Email : alfi.20063@mhs.unesa.ac.id\n</string>
+    <string name="username">Nama Produk</string>
+    <string name="describe">deskripsi produk</string>
+    <string name="name_of_creativity">Detail Produk Kerajinan</string>
+    <string name="title">nama produk kerajinan</string>
+    <string name="alat">Alat dan Bahan</string>
+    <string name="version">Version</string>
+
+
+    <string name="alt_bottom_sheet_chevron">Bottom sheet expandable indicator</string>
+
+    <string name="alt_bottom_sheet_max_results_button_minus">Decreasing maxium detected results
+        button</string>
+    <string name="alt_bottom_sheet_max_results_button_plus">Increasing maxium detected results
+        button</string>
+    <string name="alt_bottom_sheet_threshold_button_minus">Decreasing threshold of detected object
+        results button</string>
+    <string name="alt_bottom_sheet_threshold_button_plus">Increasing threshold of detected object
+        results button</string>
+    <string name="alt_bottom_sheet_thread_button_minus">Decrease the number of threads used</string>
+    <string name="alt_bottom_sheet_thread_button_plus">Increase the number of threads used</string>
+
+    <string name="label_interence_time">Inference Time</string>
+    <string name="label_fps">Frames per Second</string>
+    <string name="label_confidence_threshold">Threshold</string>
+    <string name="label_max_results">Max Results</string>
+    <string name="label_threads">Number of Threads</string>
+    <string name="label_delegate">Delegate</string>
+    <string name="label_models">ML Model</string>
+
+    <string-array name="delegate_spinner_titles">
+        <item>CPU</item>
+        <item>GPU</item>
+        <item>NNAPI</item>
+    </string-array>
+
+    <string-array name="models_spinner_titles">
+        <item>Custom2</item>
+        <item>Custom1</item>
+        <item>Custom</item>
+        <item>MobileNet V1</item>
+        <item>EfficientDet Lite0</item>
+        <item>EfficientDet Lite1</item>
+        <item>EfficientDet Lite2</item>
+    </string-array>
+
+
+    <string name="produkkaca1">1. Botol Kaca\n2. Kertas\n3. Pakaian        create a CheckBox in your layout. Because a set of checkbox options allows the user to select multiple items,\n        each checkbox is managed separately and you must register a click listener for each one.</string>
+    <string name="alatkardus1">1. Kardus bekas\n2. Tali sepatu warna\n3. Pensil\n4. Penggaris\n5. Paku\n6. Cutter.</string>
+    <string name="alatkardus2">1. Kardus bekas\n2. Selotip\n3. Gunting\n4. Gusset\n5. Pembersihbatang/pipa chenille\n6. Manik=manik dan kancing untuk hiasan.\n7. Lem</string>
+    <string name="alatkardus3">1. Kardus bekas\n2. Kertas asturo\n3. Kertas HVS\n4. Cutter\n5. Gunting\n6. Lem putih\n7. Pensil\n8. Penggaris</string>
+    <string name="alatkardus4">1. Kardus bekas\n2. Kertas kado/kertas lipat warna-warni\n3. Cat air\n4. GUnting/cutter\n5. Lem\n6. Pensil.\n7. Penggaris.\n8. Tissu ukuran medium</string>
+    <string name="alatkardus5">1. Kardus berbentuk kotak\n2. Gunting/cutter\n3. Lem superglue\n4. Kertas Kado\n5. Hiasan Pilihan\n6. Selimut kecil.</string>
+    <string name="alatkardus6">1. Kardus bekas\n2. Penggaris\n3. Pensil\n4. Lem tembak\n5. cutter atau gunting \n6. Manik=manik dan kancing untuk hiasan.</string>
+    <string name="alatplastik1">1. Botol bekas plastik warna warni\n2. Gunting\n3. Tangkai bunga plastik\n4. Lem.</string>
+    <string name="alatplastik2">1. Botol plastik bekas\n2. Kain flanel\n3. Kardus\n4. Tali kur\n5. Lem tembak\n6. Gunting.</string>
+    <string name="alatplastik3">1. Botol bekas plastik dalam berbagai ukuran\n2. Tali gantung yang kuat\n3. Cat warna-warni.</string>
+    <string name="alatplastik4">1. Botol plastik bekas.\n2. Penggaris\n3. Pulpen atau spidol\n4. Gunting\n5. cutter.</string>
+    <string name="alatplastik5">1. Galom le mineral bekas\n2. Gunting\n3. Paku\n4. Kuas\n5. Cat warna-warni.</string>
+    <string name="alatplastik6">1. Botol Bekas\n2. Cat\n3. Cutter/gunting\n4. Kertas warna-warni\n5. Lem.</string>
+    <string name="langkahkardus1">1. Tentukan seberapa besar celengan yang akan grameds butuhkan, kemudian sesuaikan ukurannya.\n2. Gambar pola tersebut menggunakan pensil dan penggaris di atas kardus. Pastikan garisnya tidak miring-miring untuk menjaga bentuk celengan yang simetris.\n3. Potong pola kardus menggunakan cutter atau gunting kertas.\n4. Langkah selanjutnya yaitu dengan melubangi sisi samping kardus menggunakan paku. Caranya lipa terlebih dahulu hingga celengan berbentuk kubus dan lihat sisi mana saja yang perlu dijahit menggunakan tali sepatu kelak.\n5. Lubangi secara sejajar.\n6. Pastikan semua lubangnya tidak terlalu berdempetan dan mempunyai jarak yang sama antara satu lubang dengan yang lainnya./n7. Maka kerajinan kardus grameds hampir jadi. Selanjutnya hanya menjahit setiap sisi yang sudah di lubangi menggunakan tali sepatu. Apabila celenganmu sudah terjahit, lubangi celah atas celengan menggunakan cutter dan celenganmu sudah siap digunakan!</string>
+    <string name="langkahkardus2">1. Potong kardus yang telah dibuat pola tas. Buat sebanyak dua buah.\n2. Kemudian potong tepi buhul, bungkus di sekitar kurva dan rekatkan menggunakan lem. Dapat ditambah dengan selotip juga agar kuat.\n3. Buat lubang di setiap sisi dan putar setengah dari pembersih pipa atau batang chenille untuk membuat lingkaran.\n4. Setelah itu, pasang manik-manik ke batang chenille dan putar ujungnya melalui lingkaran tas tangan.\n5. Biarkan di kecil menghias kerajinan tangan dari kardus ini dengan stiker apa pun yang ia suka.</string>
+    <string name="langkahkardus3">1. Menyiapkan kardus sesuai dengan ukuran kotak pensil yang kamu inginkan.\n2. Ukuran tersebut menggunakan ukuran 18 cm x 15 cm yang dapat diperlebar hingga 28 cm x 15 cm.\n3. Potong kepingan-kepingan kardus tersebut.\n4. Kepingan yang membentuk huruf U adalah bagian yang nantinya akan bisa kamu tarik keluar menghasilkan kotak pensil yang lebih lebar.\n5. Gunting kertas HVS dengan lebar sekitar 4 cm dan tempelkan pada setiap sisi kardus.\n6. Setelah kertas HVS dipasangkan pada kardus sebagai border, langkah berikutnya dalam cara membuat kerajinan dari kardus ini adalah melekatkan setiap potongan menggunakan lem. Masing-masing 2 lapis.\n7. Jika semua bagiannya sudah merekat satu sama lain, ini saatnya grameds membangun kepingan kardus menjadi kotak pensil bagian dalam.\n8. Rekatkan menggunakan lem.\n9. Satukan kepingan-kepingan yang membentuk bagian dalam dengan kepingan luar kotak pensil.\n10. Pasangkan “rel” panjang pada bagian dalam dan masukkan kepingan kardus U untuk formasi bagian luar.</string>
+    <string name="langkahkardus4">1. Dengan mengukur panjang dan lebar tisu yang akan grameds masukkan ke dalam kotak.\n2. Buat pola kotak tisu seperti pola pada cara membuat celengan dari kardus menggunakan pensil dan penggaris. Hanya saja, grameds harus memotong bagian atas agar kotak tisu bisa dibuka tutup.\n3. Potong pola menggunakan gunting atau cutter. Utamakan lubang pada bagian atas kardus agar kamu lebih mudah mengambil tisu dari kotaknya.\n4. Lem setiap sisi kardus dan satukan setiap sisinya hingga membuat kotak tisu yang sempurna.\n5. Hias kotak tisu menggunakan kertas kado atau kertas lipat warna-warni. Grameds juga bisa menggunakan opsi lain seperti lukisan abstrak agar kotak tissue lebih terlihat artistik.</string>
+    <string name="langkahkardus5">1. Sebelum membuat kasur kucing menggunakan kerajinan dari kardus, pastikan terlebih dahulu ukurannya pas dengan anabul kesayanganmu grameds. Agar nantinya ia dapat beristirahat dengan nyaman.\n2. Gunting bagian depan kardus sebagai pintu masuk kucing menggunakan cutter atau gunting.\n3. Agar tidak terlalu polos, grameds dapat menghias tempat tidur kucing dari kardus ini menggunakan kertas kado dengan pola dan corak pilihan. Grameds juga bisa menambahkan nama kucingmu pada bagian depan agar tempat tidur kucing lebih terlihat personal.\n4. Pilih selimut yang tidak terlalu tebal. Kucing lebih cepat merasa panas, jika selimut terlalu tebal resiko mereka merasakan sesak napas lebih tinggi.</string>
+    <string name="langkahkardus6">1. Ukur kardus sesuai dengan ukiran bingkai yang kamu mau dan tempelkan antara kardus yang satu dengan kardus yang lain.\n2. Kemudian tambahkan hiasan pada tepian bingkai</string>
+    <string name="langkahplastik1">1. Gunting botol sesuai dengan pola kelopak bunga yang kamu inginkan.\n2. Siapkan guntingan kelopak dari botol dalam jumlah cukup banyak\n3. Gabungkan dan tempelkan kelopak plastik tersebut sehingga menyerupai bentuk bunga\n4. Tempelkan bunga yang sudah jadi pada tangkai bunga plastik. Jika tidak ada, kamu bisa menggunakan sedotan\n5. Buat bunga plastik dalam jumlah banyak.</string>
+    <string name="langkahplastik2">1. Potong kardus menjadi bentuk lingkaran\n2. Lapisi dengan kain flanel, rekatkan dengan lem tembak\n3. Potong botol menjadi beberapa ukuran sesuai dengan selera dan kebutuhan kamu\n4. Lapisi juga dengan kain flanel\n5. Susun kardus dan botol hingga menjadi sebuah bentuk tabung\n6. Jangan lupa untuk merekatkan semua sisinya dengan erat\n7. Tempat pensil lucu sudah jadi!</string>
+    <string name="langkahplastik3">1. Potong bagian bawah botol.\n2. Beri warna dengan cat sesuai dengan selera kamu\n3. Tempelkan dengan tali gantung.\n4. Pot gantung siap untuk digunakan.</string>
+    <string name="langkahplastik4">1. Potong botol plastik menjadi dua bagian. Bagian bawah botol akan digunakan untuk membuat vas bunga.\n2. Buat garis vertikal dengan jarak dan panjang yang sama di sekeliling botol, lalu gunting sesuai garis tersebut.\n3. Setelah dipotong, letakkan botol dalam posisi terbalik dan tekan kuat sehingga potongan melebar.\n4. Tekuk potongan ke arah samping secara perlahan dan selipkan ujung potongan ke sisi dalam bagian di sebelahnya.\n5. Lakukan pada seluruh potongan di sekeliling botol plastik.</string>
+    <string name="langkahplastik5">1. Cuci dan keringkan botol yang sudah tidak terpakai.\n2. Gunting botol menjadi dua bagian.\n3. Lubangi bagian bawah botol menggunakan paku untuk mengalirkan kelebihan air saat menyiram tanaman.\n4. Cat pot botol  dengan warna favorit menggunakan kuas. Kamu juga bisa menambahkan motif favoritmu.\n5. Tunggu cat mengering sebelum digunakan sebagai pot.</string>
+    <string name="langkahplastik6">1. Cobalah untuk memotong botol menjadi lebih pendek, lalu sambungkan kembali\n2. Warnai permukaan botol dengan cat semprot sesuai dengan selera kamu.\n3. Jika tidak ada cat semprot, kamu bisa menggunakan tempelan kertas warna-warni dari kertas lipat atau kertas manila di permukaan botol.\n4. Buat pola telinga dan kaki dari kertas, lalu coba tempelkan di botol dengan menggunakan lem.\n5. Lubangi bagian atas botol sesuai dengan besarnya uang. Lubang ini akan berfungsi sebagai jalur uang masuk.</string>
+    <string name="langkahprodukkaca1">Checkboxes allow the user to select one or more options from a set.\n        Typically, you should present each checkbox option in a vertical list. To create each checkbox option,\n        create a CheckBox in your layout. Because a set of checkbox options allows the user to select multiple items,\n        each checkbox is managed separately and you must register a click listener for each one.</string>
+    <string name="langkah">Langkah Pembuatan</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="alatkaca1">1. Botol kaca bekas\n2. Cat semprot\n3. Cat kaca\n4. Bunga buatan atau segar</string>
+    <string name="alatkaca2">1. Gelas kaca bekas\n2. lilin kecil\n3. Cat kaca\n4. Kuas</string>
+    <string name="alatkaca3">1. Pecahan Kaca\n2. Kawat\n3. tang\n4. rantai atau tali</string>
+    <string name="alatkaca4">1. Pecahan kaca\n2. lem kaca\n3. Alas kayu\n4. Kaca</string>
+    <string name="alatkaca5">1. Botol kaca bekas\n2. fitting lampu\n3. kabel\n4. Bohlam\n5. Pemotong kaca</string>
+    <string name="alatkaca6">1. Kepingan kaca berwarna\n2. lem kaca\n3. Pigura atau bingkai</string>
+    <string name="langkahkaca1">1. Bersihkan botol kaca dari label dan kotoran.\n2. Bersihkan botol kaca dari label dan kotoran.\n3. Biarkan cat mengering sempurna.\n4. Tempatkan bunga buatan atau segar ke dalam botol yang telah diwarnai.</string>
+    <string name="langkahkaca2">1. Bersihkan gelas kaca dari sisa-sisa kotoran\n2. Hias bagian luar gelas dengan cat kaca, biarkan kering.\n3. Letakkan lilin kecil di dalam gelas kaca yang telah dihias.</string>
+    <string name="langkahkaca3">1. Pilih pecahan kaca dengan ukuran dan bentuk yang menarik\n2. Bungkus bagian tepi pecahan dengan kawat,bentuk kawat menjadi pengait.\n3. Sambungkan pecahan kaca yang sudah dibungkus dengan rantai atau tali untuk membuat gelang atau kalung.</string>
+    <string name="langkahkaca4">1. Aturan pecahan kaca di atas alas sesuai pola yang diinginkan.\n2. Tempelkan pecahan kaca dengan lem kaca satu persatu\n3. Biarkan kering selama beberapa jam hingga lem benar-benar kuat.</string>
+    <string name="langkahkaca5">1. Potong bagian bawah botol kaca menggunakan pemotong kaca.\n2. Pasang fitting lampu didalam botol yang telah dipotong\n3. Sambungkan kabel ke fitting lampu, pastikan instalasi listrik aman.\\n4. Pasang bohlam dan gantung lampu pada tempat yang diinginkan.</string>
+    <string name="langkahkaca6">1. Rancang desain lukisan pigura atau bingkai.\n2. Tempelkan kepingan kaca berwarna sesuai desain dengan menggunakan lem kaca\n3. Biarkan kering sempurna sebelum dipasang atau digantung.</string>
+    <string name="alatkertas1">1. Kertas bekas )koran, majalah, atau kertas warna warni)\n2. Gunting\n3. Lem\n4. Kawat bunga</string>
+    <string name="alatkertas2">1. Kertas bekas\n2. Air\n3. Blender\n4. Bingkai kayu dengan kain kasa\n5. Spons</string>
+    <string name="alatkertas3">1. Koran bekas\n2. Lem\n3. Karton bekas.</string>
+    <string name="alatkertas4">1. Kertas bekas(majalah atau kertas warna warni)\n2. Gunting\n3. Tali\n4. Lem.</string>
+    <string name="alatkertas5">1. Karton bekas\n2. Gunting\n3. Lem\n4. Cat atau kertas warna untuk hiasan.</string>
+    <string name="alatkertas6">1. Kertas bekas(majalah atau Koran)\n2. Lem\n3. Tabung karton bekas(misalnya dari tisu toilet)</string>
+    <string name="langkahkertas1">1. Gunting kertas bekas menjadi bentuk kelopak bunga.\n2. Susun kelopak bunga dan rekatkan dengan lem untuk membentuk bunga.\n3. Tempelkan bunga pada kawat bunga untuk membuat tangkai.</string>
+    <string name="langkahkertas2">1. Robek kertas bekas menjadi potongan kecil dan rendam dalam air.\n2. Blender kertas yang sudah direndam hingga menjadi bubur kertas.\n3. Tuang bubur kertas ke dalam bingkai kayu dengan kain kasa.\\n4. Ratakan bubur kertas dan tekan dengan spons untuk mengeluarkan air.\n5. Jemur hingga kering unutk menghasilkan lebaran kertas daur ulang.</string>
+    <string name="langkahkertas3">1. Gulung koran bekas menjadi tabung-tabung kecil.\n2. Susun tabung-tabung koran secara berdampingan dan rekatkan dengan lem.\n3. Bentuk susunan koran menjadi kotak dengan menambahkan karton sebagai dasar dan tutup.</string>
+    <string name="langkahkertas4">1. Lipat kertas bekas menjadi bentuk-bentuk origami seperti binatang atau kupu-kupu.\n2. Susun dan rekatkan bentuk-bentuk origami pada tali.\n3. Gantung tali yang sudah dihiasi dengan origami sebagai dekorasi dinding.</string>
+    <string name="langkahkertas5">1. Gunting karton bekas menjadi bantuk bingkai foto.\n2. Hias bingkai dengan cat atau kertas warna.\n3. Tempelkan foto pada bingkai yang sudah dihias.</string>
+    <string name="langkahkertas6">1. Gulung kertas bekas menjadi batang-batang kecil.\n2. Rekatkan batang-batang kertas pada tabung karton bekas dengan lem.\n3. Biarkan lem mengering dan tempat pensil siap digunakan.</string>
+    <string name="alatpakaian1">1. Kaos bekas\n2. Gunting\n3. Jarum\n4. Benang atau mesin jahit</string>
+    <string name="alatpakaian2">1. Kemeja bekas\n2. Gunting\n3. Benang atau mesin jahit\n4. Kancing.</string>
+    <string name="alatpakaian3">1. T-shirt bekas\n2. Gunting\n3. Manik-manik(opsional)</string>
+    <string name="alatpakaian4">1. Berbagai potongan kain bekas\n2. Gunting\n3. Jarum\n4. Benang atau mesin jahit</string>
+    <string name="alatpakaian5">1. Potongan jeans bekas\n2. Gunting\n3. Kancing\n4. Kancing\n5. Jarum\n6. Benang</string>
+    <string name="alatpakaian6">1. Potongan kain bekas\n2. Jarum dan benang\n3. Peniti bros\n4. Lem</string>
+    <string name="langkahpakaian1">1. Potong bagian lengan dan leher kaos.\n2. Balik kaos dan jahit bagian bawahnya.\n3. Balik kembali kaos sehingga jahitan tersembunyi didalam, dan tas tote siap digunakan.</string>
+    <string name="langkahpakaian2">1. Potong bagian tubuh kemeja sesuai ukuran bantal.\n2. Jahit sisi-sisinya, biarkan bagian bawah dengan kancing tebuka.\n3. Masukkan bantal ke dalam kemeja dan tutup dengan kancing.</string>
+    <string name="langkahpakaian3">1. Potong T-Shirt menjadi strio panjang.\n2. Rangkai strip-strip tersebut dan buat simpul atau tambahkan manik-manik untuk hiasan.\n3. Ikat ujung strip untuk membuat kalung.</string>
+    <string name="langkahpakaian4">1. Potong kain bekas menjadi kotak-kotak dengan ukuran yang sama.\n2. Susun dan jahit kotak-kotak tersebut menjadi satu lembar besar.\n3. Tambahakan lapisan kain di bagian belakang dan jahit semua sisi untuk menyelesaikan selimut.</string>
+    <string name="langkahpakaian5">1. Potong jeans bekas menjadi strip panjang sesuai ukuran pergelangan tangan.\n2. Jahit bagian ujung strip dan tambahkan kancing sebagai pengunci.\n3. Gelang jeans siap dipakai.</string>
+    <string name="langkahpakaian6">1. Potong kain bekas menjadi bentuk bunga atau bentuk lain sesuai selera.\n2. Jahit bagian tenagh bunga untuk membuat pola.\n3. Tempelkan peniti bros di bagian belakang dengan lem.</string>
+    <string name="alatlogam1">1. Botol logam\n2. Cincin gantungan kunci\n3. Paku kecil\n4. Palu\n5. Cat atau stiker</string>
+    <string name="alatlogam2">1. Kaleng soda bekas\n2. Lilin\n3. Sumbu lilin\n4. Gunting kaleng</string>
+    <string name="alatlogam3">1. Kaleng bekas\n2. Cat Semprot atau cat akrilik\n3. Kuas\n4. Kertas Hias</string>
+    <string name="alatlogam4">1. Kawat logam\n2. Tang\n3. Cat(opsional)</string>
+    <string name="alatlogam5">1. Sendok atau garpu belas\n2. Tang\n3. Amplas\n4. Palu(opsional)</string>
+    <string name="alatlogam6">1. Tutup botol logam\n2. Lem\n3. Papan kayu atau kanvas\n4. Cat</string>
+    <string name="langkahlogam1">1. Lubangi bagian atas tutup botol menggunakan paku dan palu.\n2. Hias tutup botol dengan cat atau stiker.\n3. Pasang cincin gantungan kunci melalui lubang yang telah dibuat.</string>
+    <string name="langkahlogam2">1. Potong kaleng soda menjadi dua bagian.\n2. Tuangkan lilin cair ke dalam bagian bawah kaleng dan masukkan sumbu di tengahnya.\n3. Biarkan lilin mengeras sebelum digunakan.</string>
+    <string name="langkahlogam3">1. Bersihkan kaleng bekas dari lebel dan kotoran.\n2. Hias Kaleng dengan cat semprot atau cat akrilik.\n3. Tambahkan kertas hias atau stiker untuk dekorasi tambahan.</string>
+    <string name="langkahlogam4">1. Potong dan bentuk kawat logam menjadi bentuk patug mini sesuai keinginan.\n2. Gunakan tang untuk membantu membentuk dan mengunci bagian-bagian kawat.\n3. Cat patung dengan warna yang diinginkan jika perlu.</string>
+    <string name="langkahlogam5">1. Potong tangkai sendok atau garpu sesuai ukuran cincin yang diinginkan.\n2. Gunakan tang dan palu untuk membentuk tangkai menjadi lingkaran.\n3. Amplas bagian tepi untuk menghaluskan cincin.</string>
+    <string name="langkahlogam6">1. Susun tutup botol pada papan kayu atau kanvas sesuai desain yang diinginkan.\n2. Tempelkan tutup botol dengan lem.\n3. Hias dengan cat untuk tampilan yang lebih menarik.</string>
+</resources>

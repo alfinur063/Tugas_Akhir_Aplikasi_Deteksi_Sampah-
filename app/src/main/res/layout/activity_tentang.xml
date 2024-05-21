@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    tools:context=".TentangActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            android:background="@drawable/rounded_corner_bawah"
+            android:minHeight="?attr/actionBarSize"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:title="@string/tentang"
+            app:titleTextColor="@color/white" />
+
+
+        <ImageView
+            android:id="@+id/arrowBack"
+            app:tint="@color/lavender"
+            style="@style/arrowBack"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/name_of_creativity"
+            android:layout_width="249dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="20dp"
+            android:text="@string/tentang"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/arrowBack"
+            app:layout_constraintStart_toEndOf="@+id/arrowBack"
+            app:layout_constraintTop_toTopOf="@id/arrowBack" />
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="320dp"
+            android:layout_height="256dp"
+            android:layout_marginTop="48dp"
+            android:background="@drawable/gambarsplash"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tentang"
+            style="@style/switchBtn"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="9dp"
+            android:backgroundTint="?attr/colorSurface"
+            android:drawableTint="?android:attr/textColorPrimary"
+            android:fontFamily="sans-serif"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="20dp"
+            android:text="@string/register"
+            android:textAlignment="center"
+            android:textColor="?android:attr/textColorPrimary"
+            app:layout_constraintBottom_toTopOf="@+id/about2"
+            app:layout_constraintStart_toEndOf="@+id/imageView2"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageViewprofil"
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+
+            android:layout_marginTop="12dp"
+            android:background="@drawable/alpiorofil"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tentang" />
+
+        <TextView
+            android:id="@+id/about2"
+            style="@style/buttomdesain"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="900dp"
+            android:drawableTint="@color/white"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="60dp"
+            android:text="@string/register_hint"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toEndOf="@+id/imageViewprofil"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewprofil"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
