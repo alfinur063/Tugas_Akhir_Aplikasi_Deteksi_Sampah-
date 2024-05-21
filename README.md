@@ -9,4 +9,9 @@ aplikasi ini terdiri dari 7 halaman yaitu
   - halaman tentang aplikasi
   - halaman detail produk daur ulang.
 > berikut tampilan aplikasi
+![Tampilan Aplikasi](https://github.com/alfinur063/Tugas_Akhir_Aplikasi_Deteksi_Sampah-/blob/master/Blue%20and%20Green%20Organic%20Group%20Project%20Presentation.png)
+
+
+D4 Manajemen Infromatika Angkatan 2020
+Unesa
 
